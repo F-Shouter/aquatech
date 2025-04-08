@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: gray;
+}
+.header {
+    position: fixed;
+    margin: 0;
+    padding-left: 50px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    border-bottom: solid rgb(47, 179, 255) 3px;
+}
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 113, 47);
+}
+.titulo {
+    color: rgb(47, 179, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.banner {
+    padding-top: 70px;
+    height: 300px;
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.social {
+    height: 500px;
+    background-color: white;
+}
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    width: 200px;
+}
+.footer {
+    height: 150px;
+    background-color: aqua;
+}
