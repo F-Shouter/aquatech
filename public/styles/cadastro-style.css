@@ -1,0 +1,36 @@
+.login {
+    padding-top: 70px;
+    height: 550px;
+    width: 100%;
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    color: rgb(238, 111, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+}
+.card-cadastro {
+    width: 500px;
+    background-color: rgb(204, 204, 204);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.card-cadastro input {
+    width: 500px;
+    border: solid rgb(61, 165, 235) 3px;
+    border-radius: 7px;
+    height: 30px;
+}
+.card-cadastro button {
+    width: 110px;
+    border: solid  rgb(240, 68, 68) 3px;
+    border-radius: 7px;
+    height: 30px;
+    background-color: rgb(240, 68, 68);
+    color: white;
+}
+
+  
